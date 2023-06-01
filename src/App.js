@@ -27,7 +27,7 @@ function App() {
 
 function MyButton(){
   return(
-    <button>i'am a button</button>
+    <button>i'am a a button</button>
   )
 }
 
