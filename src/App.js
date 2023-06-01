@@ -9,17 +9,31 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div>
+          <MyButton/>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          xiaobao 61 快乐！！！
         </a>
       </header>
     </div>
   );
 }
+
+function MyButton(){
+  return(
+    <button>i'am a button</button>
+  )
+}
+
+function AboutPage(){
+  
+}
+
 
 export default App;
